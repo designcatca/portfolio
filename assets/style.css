@@ -6,10 +6,10 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:Montserrat,Ar
 .nav a{font-size:15px;font-weight:600;text-transform:uppercase;letter-spacing:.075em}
 .lang{border-left:1px solid var(--line);padding-left:15px}.hero{padding:115px 0 100px;max-width:950px}
 .eyebrow,.meta{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);font-weight:600}
-.hero h1{font-size:clamp(54px,8vw,120px);line-height:1.02;letter-spacing:-.025em;margin:25px 0}
+.hero h1{font-size:clamp(54px,8vw,120px);letter-spacing:-.05em;margin:25px 0}
 .lead{font-size:clamp(16px,2vw,24px);line-height:1.6;max-width:740px}
 .button{display:inline-block;border-bottom:2px solid;padding:12px 0;font-weight:700;margin-top:18px}
-.section{padding:35px 0 100px}.section h2{font-size:clamp(30px,4vw,58px);letter-spacing:-.025em;margin:0 0 35px}
+.section{padding:35px 0 100px}.section h2{font-size:clamp(30px,4vw,58px);letter-spacing:-.05em;margin:0 0 35px}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 24px}
 .thumb{aspect-ratio:1.35;background:#e8e5df;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
 .thumb:before{content:'';position:absolute;width:50%;height:130%;background:#d9d4cc;transform:rotate(32deg)}
@@ -17,7 +17,7 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:Montserrat,Ar
 h3{font-size:21px;margin:16px 0 7px}
 .project p{margin:0}
 .split{display:grid;grid-template-columns:1fr 1fr;gap:70px;padding:90px 0;border-top:1px solid var(--line)}
-.split h1,.split h2{font-size:clamp(40px,5vw,76px);line-height:1.07;margin:0}
+.split h1,.split h2{font-size:clamp(40px,5vw,76px);margin:0}
 .split p{line-height:1.9}
 .footer{border-top:1px solid var(--line);padding:30px 0 55px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12px}
 .detailhero{padding:80px 0 45px}

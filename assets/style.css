@@ -37,7 +37,7 @@ a:hover {
 .logo {
   font-size: 24px;
   font-weight: 800;
-  letter-spacing: -.05em
+  letter-spacing: -.025em
 }
 .nav {
   display: flex;
@@ -49,11 +49,11 @@ a:hover {
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: .1em
+  letter-spacing: .15em
 }
 .lang {
   border-left: 1px solid var(--line);
-  padding-left: 15px
+  padding-left: 22px
 }
 .hero {
   padding: 115px 0 100px;
@@ -62,19 +62,19 @@ a:hover {
 .eyebrow, .meta {
   font-size: 15px;
   text-transform: uppercase;
-  letter-spacing: .14em;
+  letter-spacing: .15em;
   color: var(--muted);
   font-weight: 600
 }
 .hero h1 {
   font-size: clamp(54px, 8vw, 120px);
   line-height: 1;
-  letter-spacing: -.05em;
+  letter-spacing: -.035em;
   margin: 25px 0
 }
 .lead {
-  font-size: clamp(18px, 2vw, 24px);
-  line-height: 1.6;
+  font-size: clamp(21px, 2vw, 24px);
+  line-height: 1.5;
   max-width: 740px
 }
 .button {
@@ -89,7 +89,7 @@ a:hover {
 }
 .section h2 {
   font-size: clamp(30px, 4vw, 58px);
-  letter-spacing: -.05em;
+  letter-spacing: -.035em;
   margin: 0 0 35px
 }
 .grid {
@@ -124,7 +124,7 @@ a:hover {
 }
 .project h3 {
   font-size: 21px;
-  letter-spacing: -.05em;
+  letter-spacing: -.035em;
   margin: 16px 0 7px
 }
 .project p {
@@ -139,12 +139,12 @@ a:hover {
 }
 .split h1, .split h2 {
   font-size: clamp(40px, 5vw, 76px);
-  letter-spacing: -.05em;
-  line-height: 1.07;
+  letter-spacing: -.035em;
+  line-height: 1;
   margin: 0
 }
 .split p {
-  line-height: 1.9
+  line-height: 1.5
 }
 .footer {
   border-top: 1px solid var(--line);
@@ -160,7 +160,7 @@ a:hover {
 }
 .detailhero h1 {
   font-size: clamp(50px, 8vw, 110px);
-  letter-spacing: -.05em;
+  letter-spacing: -.035em;
   margin: 12px 0
 }
 .placeholder {

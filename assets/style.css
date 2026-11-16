@@ -35,7 +35,7 @@ a:hover {
   border-bottom: 1px solid var(--line)
 }
 .logo {
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 800;
   letter-spacing: -.05em
 }
@@ -46,7 +46,7 @@ a:hover {
   flex-wrap: wrap
 }
 .nav a {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .1em
@@ -60,7 +60,7 @@ a:hover {
   max-width: 950px
 }
 .eyebrow, .meta {
-  font-size: 11px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: .14em;
   color: var(--muted);
@@ -68,12 +68,12 @@ a:hover {
 }
 .hero h1 {
   font-size: clamp(54px, 8vw, 120px);
-  line-height: 1.02;
+  line-height: 1;
   letter-spacing: -.05em;
   margin: 25px 0
 }
 .lead {
-  font-size: clamp(16px, 2vw, 24px);
+  font-size: clamp(18px, 2vw, 24px);
   line-height: 1.6;
   max-width: 740px
 }
@@ -153,7 +153,7 @@ a:hover {
   justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
-  font-size: 12px
+  font-size: 15px
 }
 .detailhero {
   padding: 80px 0 45px

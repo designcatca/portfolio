@@ -42,12 +42,12 @@ a:hover {
 .top .logo {
   display: inline-flex;
   align-items: center;
-  gap: 0;
+  gap: 0.-25;
   white-space: nowrap;
 }
 
 .top .logo img {
-  height: 22px;
+  height: 20px;
   width: auto;
   object-fit: contain;
   display: block;

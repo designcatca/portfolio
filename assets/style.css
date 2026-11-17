@@ -60,11 +60,11 @@ a:hover {
   max-width: 950px
 }
 .eyebrow, .meta {
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .15em;
   color: var(--muted);
-  font-weight: 600
+  font-weight: 300
 }
 .hero h1 {
   font-size: clamp(54px, 8vw, 120px);

@@ -1,16 +1,5 @@
-# DesignCat Portfolio — starter
+# DesignCat portfolio
 
-Static bilingual HTML/CSS site. English at `/`, French at `/fr/`.
+20 bilingual HTML pages. Upload the contents of this ZIP to the repository root. Delete old home.html and fr/home.html (redirects included).
 
-## Publishing
-Upload these files to the root of your existing GitHub repository (not the enclosing `designcat-site` folder). Cloudflare Pages will redeploy automatically.
-
-## Editing
-- Shared styling: `assets/style.css`
-- English pages: `index.html`, `work.html`, `about.html`, `contact.html`
-- French pages: `fr/index.html`, `fr/work.html`, etc.
-- Case studies: `projects/` and `fr/projects/`
-- Replace placeholder blocks with your actual images and approved project text.
-
-## Important
-The bilingual navigation on individual case studies currently returns to the other language homepage. Project text is deliberately placeholder content pending review.
+Portrait: add assets/images/DesignCat-portrait.jpg, then replace the portrait-placeholder div in both About pages with an img using class bio-photo. Héros de chez nous still needs a project image. The WRA Afro image is retained but not linked to ISEP.

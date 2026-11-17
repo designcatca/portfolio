@@ -68,6 +68,7 @@ a:hover {
   border-left: 1px solid var(--line);
   padding-left: 22px
 }
+
 .hero {
   padding: 100px 0 60px;
   max-width: 950px
@@ -77,7 +78,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: .15em;
   color: var(--muted);
-  font-weight: 300
+  font-weight: 400
 }
 .hero h1 {
   font-size: clamp(54px, 8vw, 120px);
@@ -105,6 +106,7 @@ a:hover {
   letter-spacing: -.035em;
   margin: 0 0 35px
 }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -228,8 +230,8 @@ a:hover {
 .bio-copy p, .expertise p { line-height: 1.65; margin: 0 0 18px; }
 .expertise { border-top: 1px solid var(--line); padding-top: 45px; }
 .expertise h3 { margin: 0 0 8px; font-size: 20px; }
-.footer { color: #777; font-weight: 300; font-size: 13px; text-transform: none; }
-.social { display: flex; gap: 16px; flex-wrap: wrap; }
+.footer { color: #777; font-weight: 400; font-size: 15px; text-transform: none; }
+.social { display: flex; gap: 28px; flex-wrap: wrap; }
 @media(max-width:680px) { .bio-copy { padding: 0; } .about-content { padding-bottom: 50px; } }
 
 /* Minimal social footer */
@@ -237,11 +239,11 @@ a:hover {
 .footer a { color: inherit; }
 .footer .social { display: flex; align-items: center; gap: 10px; }
 .footer .social a { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; color: #767676; transition: color .2s ease; }
-.footer .social svg { width: 21px; height: 21px; display: block; }
+.footer .social svg { width: 24px; height: 24px; display: block; }
 .footer .social a:hover, .footer .social a:focus-visible { color: var(--ink, #222); }
 .footer .social a:focus-visible { outline: 1px solid currentColor; outline-offset: 2px; }
 
 /* Round social brand icons */
 .footer .social a { color: #999; }
-.footer .social svg { width: 24px; height: 24px; }
+.footer .social svg { width: 28px; height: 28px; }
 .footer .social a:hover, .footer .social a:focus-visible { color: #222; }

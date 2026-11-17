@@ -42,7 +42,7 @@ a:hover {
 .top .logo {
   display: inline-flex;
   align-items: center;
-  gap: 0.025em;
+  gap: 0.05em;
   white-space: nowrap;
 }
 

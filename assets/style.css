@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 :root {
   --ink: #191919;
   --paper: #f7f6f2;
@@ -108,7 +108,7 @@ a:hover {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0 0
+  gap: 24px 16px
 }
 
 .thumb {
@@ -215,7 +215,33 @@ a:hover {
   display: grid;
   place-items: center;
 }
-.work-grid .grid { gap: 36px 16px; }
+
 .project-image { display: block; width: 100%; height: auto; margin-bottom: 80px; }
 .portrait-placeholder, .bio-photo { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
 .portrait-placeholder { display: grid; place-items: center; background: #e8e5df; color: var(--muted); }
+
+/* Shared editorial layout */
+.detailhero h1 { line-height: 1.05; }
+.about-content { align-items: start; padding-bottom: 80px; }
+.bio-copy { padding: 0 0 0 clamp(0px, 3vw, 40px); }
+.bio-copy h2 { font-size: clamp(25px, 3vw, 40px); margin: 0 0 20px; }
+.bio-copy p, .expertise p { line-height: 1.65; margin: 0 0 18px; }
+.expertise { border-top: 1px solid var(--line); padding-top: 45px; }
+.expertise h3 { margin: 0 0 8px; font-size: 20px; }
+.footer { color: #777; font-weight: 300; font-size: 13px; text-transform: none; }
+.social { display: flex; gap: 16px; flex-wrap: wrap; }
+@media(max-width:680px) { .bio-copy { padding: 0; } .about-content { padding-bottom: 50px; } }
+
+/* Minimal social footer */
+.footer { color: #767676; }
+.footer a { color: inherit; }
+.footer .social { display: flex; align-items: center; gap: 10px; }
+.footer .social a { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; color: #767676; transition: color .2s ease; }
+.footer .social svg { width: 21px; height: 21px; display: block; }
+.footer .social a:hover, .footer .social a:focus-visible { color: var(--ink, #222); }
+.footer .social a:focus-visible { outline: 1px solid currentColor; outline-offset: 2px; }
+
+/* Round social brand icons */
+.footer .social a { color: #999; }
+.footer .social svg { width: 24px; height: 24px; }
+.footer .social a:hover, .footer .social a:focus-visible { color: #222; }

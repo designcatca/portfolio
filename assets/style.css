@@ -60,7 +60,7 @@ a:hover {
   max-width: 950px
 }
 .eyebrow, .meta {
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: .15em;
   color: var(--muted);

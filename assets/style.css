@@ -112,7 +112,7 @@ img {
 }
 
 .lead {
-  max-width: 740px;
+  max-width: 780px;
   font-size: clamp(22px, 2vw, 24px);
   line-height: 1.25;
 }
@@ -134,14 +134,14 @@ img {
 /* HERO & SECTIONS */
 
 .hero {
-  max-width: 950px;
-  padding: 100px 0 60px;
+  max-width: 980px;
+  padding: 80px 0 60px;
 }
 
 .hero h1 {
   font-size: clamp(54px, 8vw, 120px);
   line-height: 1;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.025em;
   margin: 25px 0;
 }
 
@@ -201,7 +201,7 @@ img {
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 20px;
   padding: 0;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .project-gallery img {

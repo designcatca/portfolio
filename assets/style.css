@@ -196,7 +196,7 @@ img {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 20px;
-  padding: 75px 0;
+  padding: 0;
 }
 
 .project-gallery img {
@@ -276,9 +276,6 @@ img {
   margin: 40px 0 80px;
   padding: 20px;
 }
-
-
-/* ABOUT PAGE */
 
 /* ABOUT PAGE */
 .about-content {

@@ -118,7 +118,7 @@ img { display: block; max-width: 100%; }
   .split h1, .split h2 { font-size: clamp(36px, 9vw, 48px); }
   .split p { margin: 0 0 20px; }
   .about-content { padding-bottom: 40px; }
-  .footer { gap: 20px; padding: 25px 0 40px; font-size: 12px; }
+  .footer { gap: 20px; padding: 25px 0 40px; font-size: 15px; }
   .footer .social { gap: 6px; }
   .footer .social a { width: 32px; height: 32px; }
   .footer .social svg { width: 26px; height: 26px; }

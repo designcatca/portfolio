@@ -280,11 +280,10 @@ img {
 
 /* ABOUT PAGE */
 
+/* ABOUT PAGE */
 .about-content {
-  display: grid;
   grid-template-columns: 40fr 60fr;
   gap: 48px;
-  align-items: start;
 }
 
 .portrait-placeholder {
@@ -390,8 +389,8 @@ img {
 
   .about-content {
     grid-template-columns: 1fr;
-    gap: 32px;
   }
+}
 
   .bio-copy {
     padding-left: 0;

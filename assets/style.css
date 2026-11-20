@@ -282,10 +282,9 @@ img {
 
 .about-content {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: start;
+  grid-template-columns: 40fr 60fr;
   gap: 48px;
-  padding-bottom: 80px;
+  align-items: start;
 }
 
 .portrait-placeholder {

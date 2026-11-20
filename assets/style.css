@@ -190,6 +190,38 @@ img {
   margin: 0;
 }
 
+/* PROJECT GALLERY */
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.project-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.gallery-full {
+  grid-column: span 6;
+}
+
+.gallery-half {
+  grid-column: span 3;
+}
+
+.gallery-third {
+  grid-column: span 2;
+}
+
+@media (max-width: 680px) {
+  .gallery-half,
+  .gallery-third {
+    grid-column: span 6;
+  }
+}
 
 /* SPLIT LAYOUT */
 

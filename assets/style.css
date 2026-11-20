@@ -201,6 +201,7 @@ img {
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 20px;
   padding: 0;
+  margin-bottom: 70px;
 }
 
 .project-gallery img {
@@ -412,6 +413,8 @@ img {
 
   .project-gallery {
     gap: 15px;
+    margin-bottom: 40px;
+
   }
 
   .gallery-third {

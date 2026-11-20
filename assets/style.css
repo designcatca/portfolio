@@ -63,14 +63,14 @@ img {
   align-items: center;
   gap: 0.1em;
   white-space: nowrap;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 900;
   color: var(--muted);
 }
 
 .logo img {
   width: auto;
-  height: 18px;
+  height: 20px;
   object-fit: contain;
 }
 
@@ -83,7 +83,7 @@ img {
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  gap: 22px;
+  gap: 25px;
 }
 
 .nav a {
@@ -96,7 +96,7 @@ img {
 
 .lang {
   border-left: 1px solid var(--line);
-  padding-left: 22px;
+  padding-left: 25px;
 }
 
 
@@ -125,8 +125,8 @@ img {
 .button {
   display: inline-block;
   border-bottom: 2px solid;
-  padding: 12px 0;
-  margin-top: 18px;
+  padding: 15px 0;
+  margin-top: 20px;
   font-weight: 700;
 }
 
@@ -152,7 +152,7 @@ img {
 .section h2 {
   font-size: clamp(30px, 4vw, 58px);
   letter-spacing: -0.035em;
-  margin: 0 0 35px;
+  margin: 0 0 30px;
 }
 
 
@@ -161,7 +161,7 @@ img {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
+  gap: 25px;
 }
 
 .thumb {
@@ -186,7 +186,7 @@ img {
 .project h3 {
   font-size: 22px;
   letter-spacing: -0.035em;
-  margin: 18px 0 7px;
+  margin: 20px 0 10px;
 }
 
 .project p {
@@ -227,8 +227,8 @@ img {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: start;
-  gap: 70px;
-  padding: 70px 0;
+  gap: 50px;
+  padding: 50px 0;
   border-top: 1px solid var(--line);
 }
 
@@ -248,7 +248,7 @@ img {
 /* INDIVIDUAL PROJECT PAGES */
 
 .detailhero {
-  padding: 80px 0 45px;
+  padding: 50px 0 40px;
 }
 
 .detailhero h1 {
@@ -282,7 +282,7 @@ img {
   display: grid;
   grid-template-columns: 40fr 60fr;
   align-items: start;
-  gap: 48px;
+  gap: 50px;
 }
 
 .portrait-placeholder {
@@ -310,22 +310,8 @@ img {
 .bio-copy p,
 .expertise p {
   line-height: 1.5;
-  margin: 0 0 18px;
+  margin: 0 0 20px;
 }
-
-
-/* EXPERTISE — OPTIONAL */
-
-.expertise {
-  border-top: 1px solid var(--line);
-  padding-top: 45px;
-}
-
-.expertise h3 {
-  font-size: 20px;
-  margin: 0 0 8px;
-}
-
 
 /* FOOTER */
 
@@ -334,8 +320,8 @@ img {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 22px;
-  padding: 30px 0 55px;
+  gap: 25px;
+  padding: 30px 0 50px;
   border-top: 1px solid var(--line);
   color: #777;
   font-size: 15px;
@@ -361,15 +347,15 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   color: #999;
   transition: color 0.2s ease;
 }
 
 .footer .social svg {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
 }
 
 .footer .social a:hover,
@@ -386,7 +372,7 @@ img {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    padding: 24px 0;
+    padding: 25px 0;
   }
 
   .nav {
@@ -396,7 +382,7 @@ img {
 
   .about-content {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 30px;
   }
 
   .bio-copy {
@@ -405,7 +391,7 @@ img {
 
   .split {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 25px;
     padding: 50px 0;
   }
 
@@ -425,7 +411,7 @@ img {
   }
 
   .project-gallery {
-    gap: 12px;
+    gap: 15px;
   }
 
   .gallery-third {
@@ -446,37 +432,37 @@ img {
   /* Header */
 
   .top {
-    gap: 18px;
+    gap: 20px;
     padding: 22px 0;
   }
 
   .logo {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .logo img {
-    height: 16px;
+    height: 20px;
   }
 
   .nav {
     width: 100%;
     justify-content: flex-start;
-    gap: 18px;
+    gap: 20px;
   }
 
   .nav a {
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 0.12em;
   }
 
   .lang {
-    padding-left: 18px;
+    padding-left: 20px;
   }
 
   /* Hero */
 
   .hero {
-    padding: 65px 0 45px;
+    padding: 65px 0 40px;
   }
 
   .hero h1 {
@@ -485,7 +471,7 @@ img {
 
   .eyebrow,
   .meta {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .lead {
@@ -497,31 +483,31 @@ img {
 
   .grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 16px;
+    gap: 15px;
   }
 
   .project h3 {
-    font-size: 17px;
-    margin: 12px 0 5px;
+    font-size: 18px;
+    margin: 15px 0 5px;
   }
 
   .project .meta {
-    font-size: 11px;
+    font-size: 15px;
     line-height: 1.5;
   }
 
   .section {
-    padding: 20px 0 35px;
+    padding: 20px 0 30px;
   }
 
   .section h2 {
-    margin-bottom: 24px;
+    margin-bottom: 25px;
   }
 
   /* Project gallery */
 
   .project-gallery {
-    gap: 12px;
+    gap: 15px;
   }
 
   .gallery-half,
@@ -534,15 +520,15 @@ img {
   }
 
   .detailhero {
-    padding: 55px 0 30px;
+    padding: 50px 0 30px;
   }
 
   /* Bottom About section */
 
   .split {
     grid-template-columns: 1fr;
-    gap: 24px;
-    padding: 45px 0;
+    gap: 25px;
+    padding: 40px 0;
   }
 
   .split h1,
@@ -551,14 +537,14 @@ img {
   }
 
   .split p {
-    margin: 0 0 18px;
+    margin: 0 0 20px;
   }
 
   /* About page */
 
   .about-content {
     grid-template-columns: 1fr;
-    gap: 28px;
+    gap: 30px;
     padding-bottom: 40px;
   }
 

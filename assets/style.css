@@ -196,6 +196,7 @@ img {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 20px;
+  padding: 75px 0;
 }
 
 .project-gallery img {

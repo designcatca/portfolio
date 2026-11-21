@@ -36,14 +36,14 @@ img { display: block; max-width: 100%; }
 
 /* HOME */
 .hero { max-width: 980px; padding: 80px 0 60px; }
-.hero h1 { font-size: clamp(54px, 8vw, 120px); line-height: 1; letter-spacing: -.025em; margin: 25px 0; }
+.hero h1 { font-size: clamp(54px, 8vw, 120px); line-height: 1; letter-spacing: -.035em; margin: 25px 0; }
 .section { padding: 30px 0 var(--section-space); }
-.section h2 { font-size: clamp(30px, 4vw, 58px); letter-spacing: -.025em; margin: 0 0 30px; }
+.section h2 { font-size: clamp(30px, 4vw, 58px); letter-spacing: -.035em; margin: 0 0 30px; }
 .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 25px; }
 .thumb { display: grid; place-items: center; aspect-ratio: 4 / 3; background: #e8e5df; overflow: hidden; }
 .thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .25s ease; }
 .project:hover .thumb img { transform: scale(1.04); }
-.project h3 { font-size: 22px; letter-spacing: -.025em; margin: 20px 0 10px; }
+.project h3 { font-size: 22px; letter-spacing: -.035em; margin: 20px 0 10px; }
 .project p { margin: 0; }
 
 /* REUSABLE PROJECT GALLERY: FULL / HALF / THIRD */
@@ -55,12 +55,12 @@ img { display: block; max-width: 100%; }
 
 /* SHARED TWO-COLUMN CONTENT */
 .split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 50px; padding: 50px 0; border-top: 1px solid var(--line); }
-.split h1, .split h2 { font-size: clamp(40px, 5vw, 76px); letter-spacing: -.025em; line-height: 1; margin: 0; }
+.split h1, .split h2 { font-size: clamp(40px, 5vw, 76px); letter-spacing: -.035em; line-height: 1; margin: 0; }
 .split p { line-height: 1.5; }
 
 /* PROJECT TITLES */
 .detailhero { padding: 60px 0 30px; }
-.detailhero h1 { font-size: clamp(40px, 6vw, 80px); letter-spacing: -.025em; line-height: 1; margin: 12px 0; }
+.detailhero h1 { font-size: clamp(40px, 6vw, 80px); letter-spacing: -.035em; line-height: 1; margin: 12px 0; }
 .placeholder { display: grid; place-items: center; min-height: 380px; background: #e8e5df; color: #777; text-align: center; margin: 40px 0 60px; padding: 20px; }
 
 /* ABOUT */

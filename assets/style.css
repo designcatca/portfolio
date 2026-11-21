@@ -17,6 +17,7 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-family: Mont
 a { color: inherit; text-decoration: none; }
 a:hover { text-decoration: underline; }
 img { display: block; max-width: 100%; }
+p { line-height: 1.5;}
 .wrap { width: 100%; max-width: 1320px; margin: 0 auto; padding: 0 5vw; }
 
 /* SHARED HEADER */

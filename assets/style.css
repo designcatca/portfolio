@@ -73,7 +73,7 @@ img { display: block; max-width: 100%; }
 .footer a { color: inherit; }
 .footer .social { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
 .footer .social a { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; color: #999; transition: color .2s ease; }
-.footer .social svg { width: 30px; height: 30px; }
+.footer .social svg { width: 40px; height: 40px; }
 .footer .social a:hover, .footer .social a:focus-visible { color: #222; }
 
 /* TABLET & PHONE */
@@ -81,7 +81,6 @@ img { display: block; max-width: 100%; }
   .nav { justify-content: flex-start; }
   .about-content, .split { grid-template-columns: 1fr; gap: 30px; }
   .split p { max-width: 100%; margin-top: 0; }
-  .project-gallery { margin-bottom: 55px; }
   .gallery-third { grid-column: span 3; }
 }
 

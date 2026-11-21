@@ -51,7 +51,7 @@ p { line-height: 1.5; }
 .gallery-third { grid-column: span 2; }
 
 /* SHARED TWO-COLUMN CONTENT */
-.split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 50px; padding: 30px 0; border-top: 1px solid var(--line); }
+.split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; padding: 0; border-top: 1px solid var(--line); }
 .split h1, .split h2 { font-size: clamp(40px, 5vw, 76px); letter-spacing: -.035em; line-height: 1; margin: 0; }
 
 /* PROJECT TITLES */

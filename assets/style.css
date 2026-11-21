@@ -38,12 +38,12 @@ img { display: block; max-width: 100%; }
 .hero { max-width: 980px; padding: 80px 0 60px; }
 .hero h1 { font-size: clamp(54px, 8vw, 120px); line-height: 1; letter-spacing: -.025em; margin: 25px 0; }
 .section { padding: 30px 0 var(--section-space); }
-.section h2 { font-size: clamp(30px, 4vw, 58px); letter-spacing: -.035em; margin: 0 0 30px; }
+.section h2 { font-size: clamp(30px, 4vw, 58px); letter-spacing: -.025em; margin: 0 0 30px; }
 .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 25px; }
 .thumb { display: grid; place-items: center; aspect-ratio: 4 / 3; background: #e8e5df; overflow: hidden; }
 .thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .25s ease; }
 .project:hover .thumb img { transform: scale(1.04); }
-.project h3 { font-size: 22px; letter-spacing: -.035em; margin: 20px 0 10px; }
+.project h3 { font-size: 22px; letter-spacing: -.025em; margin: 20px 0 10px; }
 .project p { margin: 0; }
 
 /* REUSABLE PROJECT GALLERY: FULL / HALF / THIRD */
@@ -70,8 +70,6 @@ img { display: block; max-width: 100%; }
 .bio-copy { min-width: 0; padding-left: clamp(0px, 3vw, 40px); }
 .bio-copy h2 { font-size: clamp(25px, 3vw, 40px); margin: 0 0 20px; }
 .bio-copy p, .expertise p { line-height: 1.5; margin: 0 0 20px; }
-.expertise { border-top: 1px solid var(--line); padding-top: 45px; }
-.expertise h3 { font-size: 20px; margin: 0 0 8px; }
 
 /* SHARED FOOTER */
 .footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 25px; padding: 30px 0 50px; border-top: 1px solid var(--line); color: #777; font-size: 15px; font-weight: 400; text-transform: uppercase; }
@@ -85,7 +83,7 @@ img { display: block; max-width: 100%; }
 @media (max-width: 768px) {
   :root { --gallery-gap: 15px; --section-space: 40px; }
   .top { flex-direction: column; align-items: flex-start; gap: 20px; padding: 25px 0; }
-  .nav { justify-content: flex-start; gap: 20px; }
+  .nav { justify-content: flex-start; }
   .about-content, .split { grid-template-columns: 1fr; gap: 30px; }
   .bio-copy { padding-left: 0; }
   .split { padding: 50px 0; }
@@ -97,12 +95,8 @@ img { display: block; max-width: 100%; }
 
 @media (max-width: 680px) {
   :root { --section-space: 30px; }
-  .top { gap: 18px; padding: 22px 0; }
-  .logo { font-size: 26px; }
-  .logo img { height: 18px; }
-  .nav { width: 100%; gap: 16px; }
-  .nav a { font-size: 13px; letter-spacing: .12em; }
-  .lang { padding-left: 16px; }
+  .nav { width: 100%;}
+  .nav a { font-size: 15px; letter-spacing: .15em; }
   .hero { padding: 65px 0 40px; }
   .hero h1 { font-size: clamp(48px, 11vw, 72px); }
   .lead { font-size: 20px; line-height: 1.4; }

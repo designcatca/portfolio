@@ -74,11 +74,11 @@ img { display: block; max-width: 100%; }
 .expertise h3 { font-size: 20px; margin: 0 0 8px; }
 
 /* SHARED FOOTER */
-.footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 25px; padding: 0 50px; border-top: 1px solid var(--line); color: #777; font-size: 15px; font-weight: 400; text-transform: uppercase; }
+.footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 25px; padding: 30px 0 50px; border-top: 1px solid var(--line); color: #777; font-size: 15px; font-weight: 400; text-transform: uppercase; }
 .footer a { color: inherit; }
 .footer .social { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
-.footer .social a { display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 50px; color: #999; transition: color .2s ease; }
-.footer .social svg { width: 50px; height: 50px; }
+.footer .social a { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; color: #999; transition: color .2s ease; }
+.footer .social svg { width: 30px; height: 30px; }
 .footer .social a:hover, .footer .social a:focus-visible { color: #222; }
 
 /* TABLET & PHONE */
@@ -91,13 +91,15 @@ img { display: block; max-width: 100%; }
   .split { padding: 50px 0; }
   .split h1, .split h2 { font-size: clamp(36px, 9vw, 52px); line-height: 1.1; }
   .split p { max-width: 100%; margin-top: 0; }
-  .project-gallery { margin-bottom: 50px; }
+  .project-gallery { margin-bottom: 55px; }
   .gallery-third { grid-column: span 3; }
 }
 
 @media (max-width: 680px) {
   :root { --section-space: 30px; }
   .top { gap: 18px; padding: 22px 0; }
+  .logo { font-size: 26px; }
+  .logo img { height: 18px; }
   .nav { width: 100%; gap: 16px; }
   .nav a { font-size: 13px; letter-spacing: .12em; }
   .lang { padding-left: 16px; }
@@ -116,8 +118,8 @@ img { display: block; max-width: 100%; }
   .split h1, .split h2 { font-size: clamp(36px, 9vw, 48px); }
   .split p { margin: 0 0 20px; }
   .about-content { padding-bottom: 40px; }
-  .footer { gap: 20px; padding: 0 40px; font-size: 15px; }
+  .footer { gap: 20px; padding: 25px 0 40px; font-size: 15px; }
   .footer .social { gap: 6px; }
-  .footer .social a { width: 40px; height: 40px; }
-  .footer .social svg { width: 40px; height: 40px; }
+  .footer .social a { width: 32px; height: 32px; }
+  .footer .social svg { width: 26px; height: 26px; }
 }

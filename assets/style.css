@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
 /* DESIGN SYSTEM */
@@ -51,8 +52,8 @@ p { line-height: 1.5; }
 .gallery-third { grid-column: span 2; }
 
 /* SHARED TWO-COLUMN CONTENT */
-.split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; padding: 50px 0;  border-top: 1px solid var(--line); }
-.split h1, .split h2 { font-size: clamp(40px, 5vw, 76px); letter-spacing: -.035em; line-height: 1;}
+.split { display: grid; grid-template-columns: 45fr 55fr; align-items: start; gap: 60px; padding: 50px 0; border-top: 1px solid var(--line); }
+.split h1, .split h2 { font-size: clamp(36px, 4.5vw, 68px); letter-spacing: -.035em; line-height: 1.1; margin: 0; }
 
 /* PROJECT TITLES */
 .detailhero { padding: 50px 0 30px; }
@@ -76,7 +77,8 @@ p { line-height: 1.5; }
 
 /* TABLET & PHONE */
 @media (max-width: 768px) {
-  .about-content, .split { grid-template-columns: 1fr; }
+  .about-content, .split { grid-template-columns: 1fr; gap: 20px; }
+  .split p { margin-top: 0; }
   .gallery-third { grid-column: span 3; }
 }
 
@@ -84,4 +86,5 @@ p { line-height: 1.5; }
   .top { flex-direction: column; align-items: flex-start; }
   .nav { width: 100%; justify-content: flex-start; }
   .gallery-half, .gallery-third { grid-column: span 3; }
+  .project-gallery { gap: 10px; }
 }

@@ -67,7 +67,7 @@ p { line-height: 1.5;}
 .bio-copy h2 { font-size: clamp(25px, 3vw, 40px); margin: 0 0 20px; }
 
 /* SHARED FOOTER */
-.footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 25px; padding: 30px 0 50px; border-top: 1px solid var(--line); color: #777; font-size: 15px; font-weight: 400; text-transform: uppercase; }
+.footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 30px; padding: 30px 0; border-top: 1px solid var(--line); color: #777; font-size: 15px; font-weight: 400; text-transform: uppercase; }
 .footer a { color: inherit; }
 .footer .social { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
 .footer .social a { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; color: #999; transition: color .2s ease; }

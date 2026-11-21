@@ -76,7 +76,7 @@ p { line-height: 1.5; }
 
 /* TABLET & PHONE */
 @media (max-width: 768px) {
-  .about-content, .split { grid-template-columns: 1fr; gap: 30px; }
+  .about-content, .split { grid-template-columns: 1fr; }
   .gallery-third { grid-column: span 3; }
 }
 

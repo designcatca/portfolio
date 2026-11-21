@@ -81,12 +81,39 @@ img { display: block; max-width: 100%; }
 
 /* TABLET & PHONE */
 @media (max-width: 768px) {
+  :root { --gallery-gap: 15px; --section-space: 40px; }
+  .top { flex-direction: column; align-items: flex-start; gap: 20px; padding: 25px 0; }
   .nav { justify-content: flex-start; }
+  .about-content, .split { grid-template-columns: 1fr; gap: 30px; }
+  .bio-copy { padding-left: 0; }
+  .split { padding: 50px 0; }
+  .split h1, .split h2 { font-size: clamp(36px, 9vw, 52px); line-height: 1.1; }
+  .split p { max-width: 100%; margin-top: 0; }
+  .project-gallery { margin-bottom: 55px; }
   .gallery-third { grid-column: span 3; }
 }
 
 @media (max-width: 680px) {
+  :root { --section-space: 30px; }
   .nav { width: 100%;}
+  .nav a { font-size: 15px; letter-spacing: .15em; }
+  .hero { padding: 65px 0 40px; }
+  .hero h1 { font-size: clamp(48px, 11vw, 72px); }
+  .lead { font-size: 20px; line-height: 1.4; }
+  .grid { gap: 15px; }
+  .project h3 { font-size: 18px; margin: 15px 0 5px; }
+  .section { padding-top: 20px; }
+  .section h2 { margin-bottom: 25px; }
+  .detailhero { padding: 50px 0 30px; }
   /* Keep smaller gallery images side-by-side on phones. */
   .gallery-half, .gallery-third { grid-column: span 3; }
+  .project-gallery { margin-bottom: 50px; }
+  .split { gap: 25px; padding: 40px 0; }
+  .split h1, .split h2 { font-size: clamp(36px, 9vw, 48px); }
+  .split p { margin: 0 0 20px; }
+  .about-content { padding-bottom: 40px; }
+  .footer { gap: 20px; padding: 25px 0 40px; font-size: 15px; }
+  .footer .social { gap: 6px; }
+  .footer .social a { width: 32px; height: 32px; }
+  .footer .social svg { width: 26px; height: 26px; }
 }

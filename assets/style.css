@@ -26,7 +26,7 @@ p { line-height: 1.5; }
 .logo img { width: auto; height: 20px; object-fit: contain; }
 .logo:hover { text-decoration: none; }
 .nav { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 30px; }
-.nav a { font-size: 15px; font-weight: 600; text-transform: uppercase; letter-spacing: .15em; white-space: nowrap; }
+.nav a { font-size: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: .15em; white-space: nowrap; }
 
 /* TYPE & LINKS */
 .eyebrow, .meta { font-size: 15px; font-weight: 400; text-transform: uppercase; letter-spacing: .15em; color: var(--muted); }

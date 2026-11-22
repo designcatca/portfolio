@@ -33,7 +33,7 @@ img { display: block; max-width: 100%; }
 .button { display: inline-block; border-bottom: 2px solid; padding: 0; font-weight: 700; }
 
 /* HOME */
-.hero { max-width: 980px; padding: 50px 0; }
+.hero { max-width: 980px; padding: 50px 0 var(--section-space); }
 .hero h1 { font-size: clamp(54px, 8vw, 120px); line-height: 1; letter-spacing: -.035em; margin: 25px 0; }
 .section { padding: 30px 0 var(--section-space); }
 .section h2 { font-size: clamp(30px, 4vw, 58px); letter-spacing: -.035em; }
@@ -93,5 +93,5 @@ img { display: block; max-width: 100%; }
   .gallery-half { grid-column: span 3; }
   .gallery-third { grid-column: span 2; }
   .project-gallery { gap: 8px; }
-  .hero.about-content { padding-top: 50px; }
+  .about-content { gap: 20px; }
 }

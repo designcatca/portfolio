@@ -93,5 +93,5 @@ img { display: block; max-width: 100%; }
   .gallery-half { grid-column: span 3; }
   .gallery-third { grid-column: span 2; }
   .project-gallery { gap: 8px; }
-  .hero { padding-top: 50px; }
+  .hero.about-content { padding-top: 50px; }
 }
